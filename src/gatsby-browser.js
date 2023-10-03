@@ -1,9 +1,5 @@
-import replaceComponentRenderer from './replaceComponentRenderer'
-import shouldUpdateScroll from './shouldUpdateScroll'
-import onClientEntry from './onClientEntry'
+import wrapPageElement from './wrapPageElement';
+import shouldUpdateScroll from './shouldUpdateScroll';
+import onClientEntry from './onClientEntry';
 
-export {
-  onClientEntry,
-  replaceComponentRenderer,
-  shouldUpdateScroll
-}
+export { onClientEntry, wrapPageElement, shouldUpdateScroll };
